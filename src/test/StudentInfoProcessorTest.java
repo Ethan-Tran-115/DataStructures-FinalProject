@@ -41,7 +41,7 @@ public class StudentInfoProcessorTest {
         
         assertEquals(2, processor.getStudentNames().size());
         assertEquals(2, processor.getScores().size());
-        assertEquals(89.0, processor.calculateAverage()); // Use calculateAverage() instead of getSum()
+        assertEquals(89.0, processor.calculateAverage()); 
     }
     
     @Test
@@ -74,7 +74,7 @@ public class StudentInfoProcessorTest {
         
         assertEquals(0, processor.getStudentNames().size());
         assertEquals(0, processor.getScores().size());
-        assertEquals(0.0, processor.calculateAverage()); // Use calculateAverage() instead of getSum()
+        assertEquals(0.0, processor.calculateAverage()); 
     }
 }
 
